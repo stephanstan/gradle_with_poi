@@ -11,3 +11,6 @@ explore gradle with poi from apache
 	
 * example project with poi
 * https://github.com/stephanstan/griddle
+
+* showed that poi is part of the dependency tree
+gradle -q dependencies
