@@ -7,7 +7,7 @@
  * user guide available at https://docs.gradle.org/2.10/userguide/tutorial_groovy_projects.html
  */
 
-description ="Stephan Stan - Learning about gradle and incorporating dependencies like poi.  Ultimate goal of converting / upgradeing some java projects.  Better standardization."
+description ="Stephan Stan - Learning about gradle and incorporating dependencies like poi.  Ultimate goal of converting / upgrading some java projects.  Better standardization."
 
 // Apply the groovy plugin to add support for Groovy
 apply plugin: 'groovy'
