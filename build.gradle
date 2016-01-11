@@ -7,9 +7,11 @@
  * user guide available at https://docs.gradle.org/2.10/userguide/tutorial_groovy_projects.html
  */
 
+description ="Stephan Stan - Learnging about gradle and incorporating dependencies like poi.  Ultimate goal of converting / upgradeing some java projects.  Better standardization."
+
 // Apply the groovy plugin to add support for Groovy
 apply plugin: 'groovy'
-apply plugin: 'maven'
+//apply plugin: 'maven'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -28,7 +30,7 @@ def poiVersion = "3.14-beta1"
     compile "org.apache.poi:poi-ooxml:${poiVersion}"
 //    compile "org.apache.poi:ooxml-schemas:${poiVersion}"
 
-    compile("com.oracle.ojdbc6:ojdbc6.jar:11.2.0.4.0")
+//    compile("com.oracle.ojdbc6:ojdbc6.jar:11.2.0.4.0")
 
     // We use the awesome Spock testing and specification framework
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
