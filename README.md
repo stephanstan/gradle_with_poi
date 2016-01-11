@@ -18,6 +18,9 @@ gradle -q dependencies
 * tutorial
 http://www.vogella.com/tutorials/Gradle/article.html
 
+
+* https://help.github.com/articles/github-flavored-markdown/
+
 | git commands| 
 ------------------
 | git status| 
