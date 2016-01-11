@@ -28,12 +28,11 @@ http://www.vogella.com/tutorials/Gradle/article.html
 | git commit -a -m "add description to project" | 
 | git push| 
 
+```
 C:\grails\workspace\gradle_with_poi [master +1 ~1 -0 !]> gradle dependencies
 :dependencies
 
-------------------------------------------------------------
 Root project - Stephan Stan - Learning about gradle and incorporating dependencies like poi.  Ultimate goal of converting / upgrading some java projects.  Better standardization.
-------------------------------------------------------------
 
 archives - Configuration for archive artifacts.
 No dependencies
@@ -114,7 +113,7 @@ BUILD SUCCESSFUL
 
 Total time: 5.911 secs
 C:\grails\workspace\gradle_with_poi [master +1 ~1 -0 !]>
-
+```
 
 
 
