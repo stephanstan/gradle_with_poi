@@ -18,11 +18,10 @@ gradle -q dependencies
 * tutorial
 http://www.vogella.com/tutorials/Gradle/article.html
 
-* git commands
-
-*git status
-
-*git add build.gradle
-*git commit -a -m "add description to project"
-*git push
+| git commands| 
+------------------
+| git status| 
+| git add build.gradle| 
+| git commit -a -m "add description to project" | 
+| git push| 
  
