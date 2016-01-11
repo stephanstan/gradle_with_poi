@@ -14,3 +14,6 @@ explore gradle with poi from apache
 
 * showed that poi is part of the dependency tree
 gradle -q dependencies
+
+* tutorial
+http://www.vogella.com/tutorials/Gradle/article.html
