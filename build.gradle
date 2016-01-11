@@ -11,26 +11,33 @@ description ="Stephan Stan - Learning about gradle and incorporating dependencie
 
 // Apply the groovy plugin to add support for Groovy
 apply plugin: 'groovy'
-//apply plugin: 'maven'
+apply plugin: 'maven'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use 'jcenter' for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    
+/*    install maven locally
+ *    https://maven.apache.org/download.cgi
+ *     install the jar
+ *    mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar -Dfile=ojdbc6.jar -DgeneratePom=true
+ */
+    mavenLocal()
 }
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
     // We use the latest groovy 2.x version for building this library
     compile 'org.codehaus.groovy:groovy-all:2.4.5'
-
+    
 def poiVersion = "3.14-beta1"
     compile "org.apache.poi:poi:${poiVersion}"
     compile "org.apache.poi:poi-ooxml:${poiVersion}"
 //    compile "org.apache.poi:ooxml-schemas:${poiVersion}"
 
-//    compile("com.oracle.ojdbc6:ojdbc6.jar:11.2.0.4.0")
+    compile("com.oracle:ojdbc6:11.2.0.4")
 
     // We use the awesome Spock testing and specification framework
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
