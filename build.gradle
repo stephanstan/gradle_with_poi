@@ -43,3 +43,12 @@ def poiVersion = "3.14-beta1"
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'junit:junit:4.12'
 }
+
+test {
+	testLogging {
+
+		// Show that tests are run in the command-line output
+
+		events 'started', 'passed'
+	}
+}

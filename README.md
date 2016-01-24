@@ -115,7 +115,21 @@ Total time: 5.911 secs
 C:\grails\workspace\gradle_with_poi [master +1 ~1 -0 !]>
 ```
 
+'''
+C:\grails\workspace\gradle_with_poi [master +0 ~1 -0]> gradle test
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:compileTestGroovy UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
 
+BUILD SUCCESSFUL
+
+'''
 
 
 
