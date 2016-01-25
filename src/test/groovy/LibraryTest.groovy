@@ -7,7 +7,13 @@
 
 import spock.lang.Specification
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 class LibraryTest extends Specification{
+
     def "someLibraryMethod returns true"() {
         setup:
         Library lib = new Library()
@@ -15,5 +21,18 @@ class LibraryTest extends Specification{
         def result = lib.someLibraryMethod()
         then:
         result == true
+    }
+
+    def "first crack at poi - write xlsx file"(){
+
+        setup:
+        Library lib = new Library()
+        when:
+        def result = lib.createXlsxFile()
+
+        then:
+
+        result == true
+
     }
 }
