@@ -197,9 +197,17 @@ Total time: 4.393 secs
 C:\grails\workspace\gradle_with_poi [master]>
 ```
 
+```
+How to run tests
 
+gradle clean
+gradle test
 
+see that file Test.xlsx is created
 
+task added to build.gradle to delete the file.
+gradle makePretty 
+```
 
 
 
