@@ -35,4 +35,17 @@ class LibraryTest extends Specification{
         result == true
 
     }
+
+    def "next crack at poi - write xlsx with ExcelHelper"(){
+
+        setup:
+        Library lib = new Library()
+        when:
+        def result = lib.createXlsxFile_01()
+
+        then:
+
+        result == true
+    }
+
 }
